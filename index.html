@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>User Search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="search.css">
+
+</head>
+
+<body>
+<!--    Nav Bar    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <img class="navbar-brand" src="img/TempLogo.svg" height="40" alt="Temp Logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home</a>
+          <a class="nav-item nav-link" href="looksy-test.html">Looksy Test</a>
+          <a class="nav-item nav-link" href="#">Leaf</a>
+          <a class="nav-item nav-link" href="all.html">View All</a>
+          <a class="nav-item nav-link" href="#">About</a>
+        </div>
+        <button type="button" class="btn btn-outline-primary ml-auto" data-toggle="modal" data-target="#signUp">Sign Up</button>
+      </div>
+    </nav>
+<!--    /Nav Bar    -->
+
+<!--    Main Content    -->
+  <div class="container">
+  <div class="input-group mb-3 mt-3">
+    <input type="text" autocomplete="off" class="form-control" id="search" placeholder="Search...." aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <button class="btn btn-outline-primary" type="button" id="submit" >Search</button>
+    </div>
+  </div>
+</div>
+<!--    /Main Content    -->
+
+<!--    JS Output    -->
+<div class="container">
+    <div class="list-group" id="output">
+</div>
+<!--    /JS Output    -->
+    <!--    MODAL    -->
+    <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUp" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" auto-complete="off">Change Banner Text</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="text" class="form-control" id="usrName2" aria-describedby="username" placeholder="Enter Username">
+    <small id="emailHelp" class="form-text text-muted">This text will not be changed forever.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Message</label>
+    <input type="text" class="form-control" id="msg2" placeholder="Banner Text">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">I Agree To <a href="#">Terms</a> And <a href="#">Services</a> </label>
+  </div>
+  <button type="submit" class="btn btn-primary" id="bannerSubmit"Sign Up</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--    /MODAL    -->
+
+
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg"  width="2.2rem" height="2.2rem" viewBox="0 0 24 24" id="menuIcon">
+  <defs>
+      <filter id="f3" x="0" y="0" width="200%" height="200%">
+        <feOffset result="offOut" in="SourceAlpha" dx="20" dy="20" />
+        <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+        <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+      </filter>
+    </defs>
+  <path fill="none" d="M0 0h24v24H0V0z"/><path d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"/></svg>
+<div class="sidebar">
+<ul>
+<li>Home</li>
+<li>Looksy</li>
+<li>Leaf</li>
+<li>about</li>
+</ul>
+
+</div>
+
+  <button id="submit" style="float: right"></button>
+  <form id="searchForm" action="">
+
+    <div class="div1" style="overflow: hidden; padding-right: .5em;">
+      <input type="text" id="search" style="width: 100%;" placeholder="Search...">
+
+  </form>
+  <div id="output">
+
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="users.js"></script>
+    <script src="search.js"></script>
+    </body>
+
+</html>

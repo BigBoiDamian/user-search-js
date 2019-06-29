@@ -1,0 +1,192 @@
+
+
+
+.btn-outline-primary {
+  color: #4D52C8;
+  border-color: #4D52C8;
+}
+.btn-outline-primary:hover {
+  background: #4D52C8;
+  box-shadow: #4D52C8;
+}
+
+    #usrName2,
+    #msg2 {
+    border-color: rgba(77, 82, 200, 0.5);
+    border-width: .1rem;
+}
+    #usrName2:focus,
+    #msg2:focus {
+    box-shadow: none;
+    border-color: rgba(77, 82, 200, .85)
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+    caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+    .caption {
+
+
+
+
+
+    color:    #6B747D;
+
+    }
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+#menuIcon, #submit, #search, .div1 {
+margin-top: .5rem;
+margin-left: .5rem;
+margin-right: .5rem;
+}
+#submit {
+width: 4em;
+margin: 0 auto;
+height: 2rem;
+background: #4D52C8;
+border: none;
+border-radius: 2em;
+float: right;
+padding-right: 10px;
+box-shadow: 1px 5px 5px #cacad0;
+outline: none;
+margin-right: .5rem;
+}
+#menuIcon {
+margin: 0 auto;
+height: 2.2rem;
+float: left;
+fill: #bfc1c2;
+padding-left: 10px;
+z-index: 100;
+  position: relative;
+
+}
+#search {
+width: 100%;
+margin: 0 auto;
+background: #f8f8ff;
+border: none;
+border-radius: 2em;
+height: 2rem;
+box-shadow: 1px 5px 5px #cacad0;
+outline: none;
+}
+input[type="text"] {
+    text-indent: 1rem;
+    font-size: 1rem;
+    color: #35352f;
+}
+.div1 {
+padding-bottom: 50em;
+padding-left: 10px;
+}
+.sidebar {
+  margin-left: -3rem;
+  margin-top: -1rem;
+  display: none;
+  float: left;
+  width: 15%;
+  height: 100vh;
+  padding: 20px 20px 20px 20px;
+  background-color: #f5f5f5;
+  box-shadow: 1px 9px 9px #cacad0;
+}
+.sidebar li {
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: #141414;
+    list-style-type: none;
+}
+#listName::before {
+        content: url(/Users/damianszymanski/Wake-Up-Clothing/Coral_Web/search/img/round-account_circle-24px.svg);
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        fill: #403e3d;
+}
+#listVid::before {
+        content: url(/Users/damianszymanski/Wake-Up-Clothing/Coral_Web/search/img/round-video_library-24px.svg);
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        fill: #403e3d;
+}
+#listYear::before {
+        content: url(/Users/damianszymanski/Wake-Up-Clothing/Coral_Web/search/img/round-calendar_today-24px.svg);
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        fill: #403e3d;
+
+}
+#listName,
+ #listVid,
+  #listYear {
+        position: relative;
+        display: block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+  }
+  #listName {
+        text-shadow: 1px 4px 4px #cacad0;
+        font-weight:    bold;
+        color:    #fd7c6e;
+  }
+  #listVid,
+  #listYear {
+        text-shadow: 1px 4px 4px #cacad0;
+        font-weight: medium;
+        color:    #3439a9;
+  }
+
+#search:focus {
+        border-bottom: 2px solid rgba(77,82,200,.4);
+} */
